@@ -14,11 +14,11 @@
 
 
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	  <div class="container-fluid">
 	    <a class="navbar-brand" href="index.html">Code2Screenshot </a>
 	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-	        <li class="nav-item"><a class="btn btn-dark" href="#">GitHub</a></li>
+	        <li class="nav-item"><a class="btn btn-light" href="https://github.com/QuantumByteStudios/Code2Screenshot">GitHub</a></li>
 	      </ul>
 	  </div>
 	</nav>
@@ -27,30 +27,23 @@
 </head>
 <body>
 	<div class="container-fluid">
-		<div class="mb-3">
+		<div class="col-12">
 			<form action="Output.php" method="post">
 				<label>Any Title for your code? </label><br>
-				<input value="A Simple Hello World Program :)" placeholder="Give me a Title.." size="50" type="text" name="title"><br><br>
+				<input value="A Simple Hello World Program in Java" placeholder="Give me a Title.." size="50" type="text" name="title"><br><br>
 				<label for="exampleFormControlTextarea1" class="form-label">Paste Your Code Here</label>
 				<textarea name="code" type="text" class="form-control" id="codeArea" rows="15">
-
 //Paste Your Code Here :)
-#include< iostream>
-#include< stdlib.h>
-using namespace std;
-
-int main() {
-	
-	system("clear");
-	cout << "Hello World";
-
-	return 0;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
 }
-
 		  		</textarea>
 		  		<br>
 				<input class="btn btn-success" type="submit">
 			</form>
+			<br><br><br>
 		</div>
 
 		<script type="text/javascript">
