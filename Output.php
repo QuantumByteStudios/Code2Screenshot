@@ -23,11 +23,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js" integrity="sha512-V/C9Axb8EEL4ix79ERIJmpRd6Mp1rWVSxa2PIBCdCxqhEsfCBWp/R0xJ4U495czhcuDWrGOFYo8+QI3lJ9DK5g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/canvas2image@1.0.5/canvas2image.min.js"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
      <div class="container-fluid">
        <a class="navbar-brand" href="index.html">Code2Screenshot </a>
          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           <li class="nav-item"><a class="btn btn-dark" href="#">GitHub</a></li>
+           <li class="nav-item"><a class="btn btn-light" href="https://github.com/QuantumByteStudios/Code2Screenshot">GitHub</a></li>
          </ul>
      </div>
     </nav>
@@ -51,7 +51,7 @@
     </script>
 
     <div id='capture'>
-       <div class="container" id="photo">
+       
           <div class="container-fluid">
              <?php echo "<h3>$title</h3>"; ?>
              <div class="row">
@@ -59,6 +59,7 @@
                     <code>
                         <pre  style="padding: 25px;" class="prettyprint">
                             <?php 
+                                echo "\n";
                                 echo htmlspecialchars_decode($CODE); 
                                 echo "\n//Screenshot Generated form Code2Screenshot";
                             ?>
@@ -67,7 +68,7 @@
                 </div>      
              </div>
           </div>
-       </div>    
+         
     </div>
 
     <button class="btn btn-primary" onclick="download(), successMessage()">Get Screenshot!</button>  
