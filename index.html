@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Code2Screenshot</title>
 	<link rel="stylesheet" type="text/css" href="prettify-small/prettify.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
 	<script type="text/javascript" src="prettify-small/prettify.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
@@ -26,6 +26,9 @@
 	<div class="container-fluid">
 		<div class="col-12">
 			<form action="Output.php" method="post">
+				<div class="alert alert-success" role="alert">
+				  Tip: Type headerfile in quotes "file.h" insted of &lt;file.h&gt;
+				</div>
 				<label>Any Title for your code? </label><br>
 				<input value="A Simple Hello World Program in Java" placeholder="Give me a Title.." size="50" type="text" name="title"><br><br>
 				<label for="exampleFormControlTextarea1" class="form-label">Paste Your Code Here</label>
