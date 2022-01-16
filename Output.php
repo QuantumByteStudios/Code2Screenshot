@@ -3,13 +3,13 @@
    $CODE = $_POST["code"];
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Code2Screenshot</title>
    <link rel="stylesheet" type="text/css" href="prettify-small/prettify.css">
-   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="src/css/style.css">
    <script type="text/javascript" src="prettify-small/prettify.js"></script>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
@@ -37,7 +37,7 @@
 <body>
 
 <div class="container-fluid">
-    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="src/js/html2canvas.min.js"></script>
     <script>
        const download = () => {
           html2canvas(document.querySelector('#capture')).then(canvas => {
