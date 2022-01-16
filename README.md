@@ -1,5 +1,5 @@
 <p align="center">
-<img style="border-radius: 15px;" width="500px" height="500px" src="https://quantumdrive.000webhostapp.com/Code2Screenshot/SampleImages/icon.png" alt="quantumbytestudios">
+<img style="border-radius: 15px;" width="300px" height="300px" src="https://quantumdrive.000webhostapp.com/Code2Screenshot/SampleImages/icon.png" alt="quantumbytestudios">
   <h1 align="center">Code2Screenshot</h1>
 </p>
 
