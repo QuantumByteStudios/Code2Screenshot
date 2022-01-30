@@ -4,7 +4,7 @@
 </p>
 
 ### Simple and Easy to use tool! :) 
-### Tool available Online at: <a href="https://quantumdrive.000webhostapp.com/Code2Screenshot/">Code2Screenshot</a>
+### Tool available Online at: <a href="https://quantumdrive.000webhostapp.com/Code2Screenshot/src/SampleImages/icon.png">Code2Screenshot</a>
 
 <br>
 
