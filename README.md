@@ -1,10 +1,10 @@
 <p align="center">
-<img style="border-radius: 15px;" width="300px" height="300px" src="https://quantumdrive.000webhostapp.com/Code2Screenshot/SampleImages/icon.png" alt="quantumbytestudios">
+<img style="border-radius: 15px;" width="300px" height="300px" src="https://quantumdrive.000webhostapp.com/Code2Screenshot/src/SampleImages/icon.png" alt="quantumbytestudios">
   <h1 align="center">Code2Screenshot</h1>
 </p>
 
 ### Simple and Easy to use tool! :) 
-### Tool available Online at: <a href="https://quantumdrive.000webhostapp.com/Code2Screenshot/src/SampleImages/icon.png">Code2Screenshot</a>
+### Tool available Online at: <a href="https://quantumdrive.000webhostapp.com/Code2Screenshot/">Code2Screenshot</a>
 
 <br>
 
